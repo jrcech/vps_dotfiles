@@ -13,3 +13,6 @@ alias dcw='docker compose exec web'
 alias dcwb='docker compose exec web exec bundle'
 alias dcd='docker compose down'
 alias drst='docker compose kill && docker rmi -f $(docker images -q) && docker rm -f $(docker ps -a -q) && docker volume rm $(docker volume ls -q) && docker builder prune -a'
+
+# Cloud
+alias cloud-init-log='sudo cat /var/log/cloud-init-output.log'
