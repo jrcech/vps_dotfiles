@@ -10,7 +10,7 @@ alias dcbnc='docker compose build --no-cache'
 alias dcu='docker compose up'
 alias dcud='docker compose up -d'
 alias dcw='docker compose exec web'
-alias dcwb='docker compose exec web exec bundle'
+alias dcwb='docker compose exec web bundle exec'
 alias dcd='docker compose down'
 
 alias drst='docker compose kill && '\
